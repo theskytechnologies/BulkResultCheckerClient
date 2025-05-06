@@ -1,0 +1,31 @@
+html, body {
+    font-family: 'Dancing Script', cursive;
+}
+  
+
+
+.custom-table th, 
+.custom-table td {
+    padding: 12px 15px; /* Adds spacing inside cells */
+    font-size: 14px; /* Reduces font size for better fit */
+}
+
+.custom-table th {
+    background-color: #343a40; /* Dark header */
+    background-color: #0d6efd; /* Blue header */
+    color: white;
+    text-align: center; /* Center aligns header text */
+}
+
+.custom-table tbody tr {
+    border-bottom: 1px solid #ddd; /* Adds subtle row separation */
+}
+
+.custom-table tbody tr:hover {
+    background-color: #f8f9fa; /* Light hover effect for clarity */
+}
+
+/* Align number fields to center */
+.text-center {
+    text-align: center !important;
+}
